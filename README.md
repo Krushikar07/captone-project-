@@ -75,25 +75,6 @@ Visit `http://localhost:8000` to view the app locally.
 
 ---
 
-## 🔑 Environment Variables
-
-| Variable | Description |
-|---|---|
-| `OPENROUTER_API_KEY` | Your API key from [openrouter.ai](https://openrouter.ai) — required for AI responses |
-
-Get a free key at OpenRouter (no credit card required) and add it either to your local `.env` file or, for production, your Vercel project's **Settings → Environment Variables**.
-
----
-
-## ☁️ Deployment (Vercel)
-
-1. Push this repo to GitHub (or deploy directly via the Vercel CLI/dashboard).
-2. Import the project in Vercel.
-3. Add `OPENROUTER_API_KEY` under **Settings → Environment Variables**.
-4. Deploy. Vercel automatically detects `api/index.py` as the Python function entrypoint via `vercel.json`.
-
----
-
 ## 🧠 Key Endpoints
 
 | Endpoint | Description |
